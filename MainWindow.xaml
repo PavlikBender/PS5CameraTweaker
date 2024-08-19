@@ -1,0 +1,40 @@
+﻿<Window x:Class="PS5CameraTweaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PS5CameraTweaker"
+        mc:Ignorable="d"
+        Title="PS5 Camera Tweaker" Height="450" Width="500">
+    <Grid Background="#FF383838" TextBlock.Foreground="White">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Contrast" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Saturation" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Sharpness" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Gain" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Autoexposure" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <Slider Grid.Row="0" Grid.Column="1" Minimum="0" Maximum="8" SmallChange="1" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Value="{Binding Contrast}"/>
+        <Slider Grid.Row="1" Grid.Column="1" Minimum="0" Maximum="8" SmallChange="1" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Value="{Binding Saturation}"/>
+        <Slider Grid.Row="2" Grid.Column="1" Minimum="0" Maximum="8" SmallChange="1" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Value="{Binding Sharpness}"/>
+        <Slider Grid.Row="3" Grid.Column="1" Minimum="0" Maximum="8" SmallChange="1" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Value="{Binding Gain}"/>
+        <CheckBox Grid.Row="4" Grid.Column="1" IsChecked="{Binding Autoexposure}" VerticalAlignment="Center"/>
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" Content="Save" Command="{Binding SaveCommand}" Height="30" Width="100" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding Contrast}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding Saturation}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding Sharpness}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="{Binding Gain}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>

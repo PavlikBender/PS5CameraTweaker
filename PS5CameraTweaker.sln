@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS5CameraTweaker", "PS5CameraTweaker.csproj", "{EEC163B4-65EE-4E73-9F64-38171C8F946E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC163B4-65EE-4E73-9F64-38171C8F946E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC163B4-65EE-4E73-9F64-38171C8F946E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC163B4-65EE-4E73-9F64-38171C8F946E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC163B4-65EE-4E73-9F64-38171C8F946E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BFC2093-D337-42B0-BFC6-7AB8ADE11A75}
+	EndGlobalSection
+EndGlobal
