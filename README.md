@@ -6,7 +6,7 @@ It changes Gain, Sharpness, Saturation, Contrast, Autoexposure parameters in fir
 
 ## How to use?
 
-1. Extract folder "PS5CameraTweaker" in folder there "OrbisEyeCameraFirmwareLoader.exe" and "firmware.bin" located. Should look like this":
+1. Extract folder "PS5CameraTweaker" in folder there "OrbisEyeCameraFirmwareLoader.exe" and "firmware.bin" located. Should look like this:
 
 ![](/Folder.png)
 
