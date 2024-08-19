@@ -16,3 +16,5 @@ It changes Gain, Sharpness, Saturation, Contrast, Autoexposure parameters in fir
 ![](/App.png)
 
 4. Load PS5 camera through "OrbisEyeCameraFirmwareLoader.exe".
+
+More about parameters: [mr. dkvcode comment](https://github.com/psxdev/OrbisEyeCam/issues/10#issuecomment-2295594922)
